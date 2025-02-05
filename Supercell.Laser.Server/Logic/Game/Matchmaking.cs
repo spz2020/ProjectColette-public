@@ -102,7 +102,7 @@
         public int SecondsLeft;
         private int Turns;
 
-        public const int SEARCH_TIMEOUT = 60;
+        public const int SEARCH_TIMEOUT = 3600;
 
         public MatchmakingSlot(EventData eventData, int playersRequired)
         {
