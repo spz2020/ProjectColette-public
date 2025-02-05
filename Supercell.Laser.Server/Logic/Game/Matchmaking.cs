@@ -1,6 +1,5 @@
 ﻿namespace Supercell.Laser.Server.Logic.Game
 {
-    using Masuda.Net;
     using Supercell.Laser.Logic.Battle;
     using Supercell.Laser.Logic.Battle.Structures;
     using Supercell.Laser.Logic.Data;
@@ -395,20 +394,6 @@
                 sortedEntries[i].Connection.Send(startLoading);
                 battle.Dummy = startLoading;
             }
-            //if (entries.Count > 1)
-            //{
-            //string playernames = "";
-            //foreach (MatchmakingEntry entry in sortedEntries)
-            //{
-            //    playernames += entry.Player.DisplayData.Name;
-            //    playernames += "  ";
-            //    playernames += entry.Player.Trophies.ToString();
-            //    playernames += "🏆\n";
-            //}
-            //MasudaBot masudaBot = new MasudaBot(102038674, "ElazeGW3722wbRMI9StXcSJbvsRLitBm", "ElazeGW3722wbRMI9StXcSJbvsRLitBm", BotType.Public);
-            ////masudaBot.ModifyChannelAsync("156024986", "服务器状态：🟢", 0, 3, "141954264");
-            //masudaBot.SendMessageAsync("141955628", new Masuda.Net.HelpMessage.PlainMessage("多人对战开始：玩家：\n" + playernames));
-            //}
             battle.Start();
 
         }

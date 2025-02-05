@@ -30,7 +30,6 @@ namespace Supercell.Laser.Logic.Battle
     using Supercell.Laser.Logic.Message.Home;
     using Supercell.Laser.Logic.Notification;
     using Supercell.Laser.Logic.Message.Account;
-    using Masuda.Net.HelpMessage;
 
     public struct DiedEntry
     {

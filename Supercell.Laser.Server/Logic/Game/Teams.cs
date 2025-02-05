@@ -13,7 +13,6 @@
     using Supercell.Laser.Logic.Util;
     using Supercell.Laser.Server.Networking;
     using Supercell.Laser.Server.Networking.Session;
-    using Masuda.Net.Models;
     using System.Xml.Linq;
     using System.Reflection.Metadata.Ecma335;
 

@@ -1,6 +1,5 @@
 ﻿namespace Supercell.Laser.Server.Networking.Session
 {
-    using Masuda.Net;
     using Supercell.Laser.Logic.Avatar;
     using Supercell.Laser.Logic.Club;
     using Supercell.Laser.Logic.Friends;
@@ -53,19 +52,11 @@
                     ErrorCode = 10,
                 });
             }
-            MasudaBot masudaBot = new MasudaBot(102038674, "ElazeGW3722wbRMI9StXcSJbvsRLitBm", "ElazeGW3722wbRMI9StXcSJbvsRLitBm", BotType.Public);
-            masudaBot.ModifyChannelAsync("156024986", "服务器状态：🔴", 0, 3, "141954264");
-            masudaBot.ModifyChannelAsync("216185176", "服务器在线人数：0", 0, 4, "141954264");
 
         }
 
         public static void SendGlobalMessage(long AccountId, string name, string message)
         {
-            if (AccountId != -1)
-            {
-                MasudaBot masudaBot = new MasudaBot(102038674, "ElazeGW3722wbRMI9StXcSJbvsRLitBm", "ElazeGW3722wbRMI9StXcSJbvsRLitBm", BotType.Public).LogTo(null);
-                masudaBot.SendMessageAsync("638478159", new Masuda.Net.HelpMessage.PlainMessage(name + "(" + LogicLongCodeGenerator.ToCode(AccountId) + "):\n" + message));
-            }
             foreach (var session in ActiveSessions.Values.ToArray())
             {
                 if (session.Connection.MessageManager.IsAlive())

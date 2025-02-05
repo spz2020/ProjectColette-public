@@ -48,7 +48,6 @@
     using Org.BouncyCastle.Crypto;
     using Google.Protobuf.WellKnownTypes;
     using K4os.Compression.LZ4.Internal;
-    using Masuda.Net.Models;
     using Org.BouncyCastle.Math;
     using Supercell.Laser.Logic.Battle.Component;
     using System.Security.Cryptography;

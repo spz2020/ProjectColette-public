@@ -1,8 +1,5 @@
 ﻿namespace Supercell.Laser.Server
 {
-    using Masuda.Net;
-    using Masuda.Net.HelpMessage;
-    using Masuda.Net.Models;
     using Supercell.Laser.Server.Database.Models;
     using Supercell.Laser.Server.Database;
     using Supercell.Laser.Server.Handler;

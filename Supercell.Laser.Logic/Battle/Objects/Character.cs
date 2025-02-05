@@ -18,7 +18,6 @@ namespace Supercell.Laser.Logic.Battle.Objects
     using System.Xml.Linq;
     using DeenGames.Utils;
     using DeenGames.Utils.AStarPathFinder;
-    using Masuda.Net.Models;
     using Supercell.Laser.Logic.Battle.Component;
     using Supercell.Laser.Logic.Battle.Level;
     using Supercell.Laser.Logic.Battle.Structures;
