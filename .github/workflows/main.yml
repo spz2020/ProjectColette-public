@@ -5,10 +5,14 @@ name: .NET
 on:
   push:
     paths:
-    - 'src/**'
+    - 'Supercell.Laser.Logic/**'
+    - 'Supercell.Laser.Server/**'
+    - 'Supercell.Laser.Titan/**'
   pull_request:
     paths:
-    - 'src/**'
+    - 'Supercell.Laser.Logic/**'
+    - 'Supercell.Laser.Server/**'
+    - 'Supercell.Laser.Titan/**'
   workflow_dispatch:
  
 jobs:
