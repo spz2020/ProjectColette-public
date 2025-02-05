@@ -14,7 +14,7 @@
         public override void Encode()
         {
             //frida
-            Stream.WriteString(File.ReadAllText("fridascript.js"));
+//            Stream.WriteString(File.ReadAllText("fridascript.js"));
 
             Stream.WriteLong(AccountId);
             Stream.WriteLong(AccountId);
