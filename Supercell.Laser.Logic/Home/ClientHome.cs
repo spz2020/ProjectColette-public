@@ -75,7 +75,7 @@ namespace Supercell.Laser.Logic.Home
             OfferBundles = new List<OfferBundle>();
             LastVisitHomeTime = DateTime.UnixEpoch;
 
-            TrophyRoadProgress = 10;
+            TrophyRoadProgress = 20;
 
             BrawlPassProgress = 1;
             PremiumPassProgress = 1;
@@ -83,7 +83,7 @@ namespace Supercell.Laser.Logic.Home
             UnlockedEmotes = new List<int>();
             DefaultBattleCard = new BattleCard();
 
-            PreferredThemeId = -1;
+            PreferredThemeId = -2;
         }
 
         public void HomeVisited()
