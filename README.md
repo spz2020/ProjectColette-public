@@ -6,5 +6,5 @@ This server is not mine is by shei and erder, im Only a few things have been mod
 - github Actions
 - clean qq bot 
 
-[OG README](README.md.og) 
+[The original README](README.og.md) 
 
